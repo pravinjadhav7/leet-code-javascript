@@ -43,7 +43,7 @@ var longestPalindrome = function(s) {
             // sub of sub
             var substrings_sub = substrings.substr(0, j);
 
-            if (substrings_sub.length <= 1) continue;
+            //if (substrings_sub.length <= 1) continue;
             
             if (is_Palindrome(substrings_sub)){
                 if (substrings_sub.length > max_length) 
